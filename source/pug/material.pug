@@ -36,10 +36,8 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Estructura Funcional de la Ocupación (EFO)', '#tema-1')
-                                    +navTemaItem('2', 'Instrumentos de evaluación', '#tema-2')
-                                    +navTemaItem('3', 'Fases de alistamiento y planeación', '#tema-3')
-                                    +navTemaItem('4', 'Confidencialidad', '#tema-4')                                    
+                                    +navTemaItem('1', 'Estructura del ítem', '#tema-1')
+                                    +navTemaItem('2', 'Construcción de indicadores de desempeño y producto', '#tema-2')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
@@ -50,8 +48,7 @@ html(lang="es")
             #tema-1
                 include pages/1-tema.pug
             #tema-2
-                include pages/2-tema.pug
-                                                     
+                include pages/2-tema.pug                                                     
             #glosario
                 include pages/glosario.pug
             #anexos
